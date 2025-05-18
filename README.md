@@ -25,25 +25,25 @@ Jalankan perintah berikut di terminal untuk mengunduh proyek:
 ```bash
 git clone https://github.com/NabielMuaafiiR/Fundamental-Pemrosesan-Data.git
 cd Fundamental-Pemrosesan-Data
+```
 
 ### 2. Instalasi Dependensi
-
+```bash
 pip install -r requirements.txt
-
+```
 ### Langkah 3: Menjalankan Skrip Utama
-
+```bash
 python main.py
-
+```
 ### Langkah 4: Menjalankan Unit Test
-
+```bash
 python -m unittest discover tests
-
-
+```
 ### Langkah 5: Menjalankan Test Coverage
-
+```bash
 coverage run -m unittest discover tests
-
+```
 ### Langkah 6: Melihat Hasil Laporan Coverage
-
+```bash
 coverage report -m
-
+```
